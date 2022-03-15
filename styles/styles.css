@@ -1,0 +1,119 @@
+*   {margin: 0;
+	 padding: 0;
+	 border: 0;
+    }
+
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #782629;
+    height: 15vh;
+    
+}
+
+
+
+#logo-liverpool {
+
+    height: 5rem;
+    width: auto;
+    margin-right: 2rem;
+}
+
+
+
+h1,h2,h4,p{
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather",cursive;
+}
+
+h2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: auto;
+    background-color: rgb(202, 17, 17);
+    color: white;
+    border: 2px solid rgb(202, 17, 17);
+    border-radius: 4rem;
+}
+
+body {background-image: url("/assents/img/papel-de-parede-do-liverpool\ -wallpaper\ \(15\).jpg"); }
+
+main{
+
+    
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#klopphumor{
+
+    background-color: white;
+    height: 100%;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+div.klopphumor img{
+
+    height: 320px;
+    width: 500px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 3px solid white;
+    border-radius: 2rem;
+}
+
+div.klopphumor {
+
+    text-align: center;
+}
+
+#button{
+
+    height: 2rem;
+    width: 10rem;
+    background-color: rgb(202, 17, 17);
+    text-decoration-color: white;
+    border: 3px solid rgb(202, 17, 17);
+    border-radius: .5rem;
+    font-family: "Merriweather",cursive;
+    font-size: 15px;
+    
+    
+
+}
+
+footer{
+    
+    width: 100%;
+    height: 5vh;
+    background-color: #782629;    
+    
+}
+
+#creditos{
+
+    
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
